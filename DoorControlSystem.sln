@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoorControlSystem", "DoorControlSystem.csproj", "{F3184CBF-990F-4C96-9A3C-43D477AF05C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Test.Unit", "..\Calculator.Test.Unit\Calculator.Test.Unit.csproj", "{FC7A8277-885C-41D8-B543-151A6F943730}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3184CBF-990F-4C96-9A3C-43D477AF05C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3184CBF-990F-4C96-9A3C-43D477AF05C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3184CBF-990F-4C96-9A3C-43D477AF05C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3184CBF-990F-4C96-9A3C-43D477AF05C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC7A8277-885C-41D8-B543-151A6F943730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7A8277-885C-41D8-B543-151A6F943730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7A8277-885C-41D8-B543-151A6F943730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7A8277-885C-41D8-B543-151A6F943730}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A55A9A3-5889-452C-BA5A-4B6C808F0289}
+	EndGlobalSection
+EndGlobal
