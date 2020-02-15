@@ -28,7 +28,7 @@ namespace DoorControlSystem
         private DoorControlStates _doorControlStates;
 
         //Constructor
-        DoorControl(IAlarm alarm, IUserValidation userValidation, IEntryNotification entryNotification, IDoor door)
+        public DoorControl(IAlarm alarm, IUserValidation userValidation, IEntryNotification entryNotification, IDoor door)
         {
             //Save reference to all dependencies
             _alarm = alarm;
@@ -52,7 +52,11 @@ namespace DoorControlSystem
                 case DoorControlStates.DoorClosed:
                     //Validate user
                     if (!_userValidation.ValidateEntryRequest(id))
+                    {
+                        _entryNotification.NotifyEntryDenied();
                         return;
+                    }
+                        
 
                     //Change state
                     _doorControlStates = DoorControlStates.DoorOpening;
